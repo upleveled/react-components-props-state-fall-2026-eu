@@ -1,23 +1,21 @@
 import './App.css';
-import logo from './logo.svg';
+import ExampleComponents from './ExampleComponents';
+import ExampleProps from './ExampleProps';
+import ExampleStateCounter from './ExampleStateCounter';
+import ExampleStateEmail from './ExampleStateEmail';
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ExampleComponents />
+      <ExampleProps
+        // 1. Pass props to component
+        name="Kevin"
+        age={25}
+        games={['Cyberpunk 2077', 'GTA']}
+      />
+      <ExampleStateCounter />
+      <ExampleStateEmail />
     </div>
   );
 }
