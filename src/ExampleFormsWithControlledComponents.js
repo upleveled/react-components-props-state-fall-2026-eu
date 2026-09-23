@@ -25,7 +25,7 @@ export default function ExampleFormsWithControlledComponents() {
             setUsername(event.currentTarget.value);
           }}
 
-          // // This is the name sent via the form, if we do not prevent the default action
+          // // This is the name sent via the form. It will also show up in the URL after the ? if we do not prevent the default action.
           // name="username"
 
           // // For autocomplete, you can use
