@@ -23,7 +23,7 @@ export default function ExampleFormElements() {
           // (only works for Controlled Components)
           console.log(username);
 
-          // Read values from `name` props using FormData
+          // Read values from inputs with `name` props using FormData
           // (also allows for reading values from Uncontrolled Components)
           const formData = new FormData(event.currentTarget);
           console.log(formData.get('username'));
