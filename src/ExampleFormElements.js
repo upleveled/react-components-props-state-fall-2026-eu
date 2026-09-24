@@ -43,7 +43,7 @@ export default function ExampleFormElements() {
           name="username"
 
           // // For autocomplete, you can use
-          // autocomplete="username"
+          // autoComplete="username"
         />
 
         {/* Uncontrolled Component */}

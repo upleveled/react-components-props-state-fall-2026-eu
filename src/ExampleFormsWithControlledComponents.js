@@ -29,7 +29,7 @@ export default function ExampleFormsWithControlledComponents() {
           // name="username"
 
           // // For autocomplete, you can use
-          // autocomplete="username"
+          // autoComplete="username"
         />
 
         <div>{username}</div>
