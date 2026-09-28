@@ -23,9 +23,11 @@
   },
   "dependencies": {
     "@upleveled/react-scripts": "5.1.4",
+    "@xstate/react": "6.1.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "sass": "1.104.0"
+    "sass": "1.104.0",
+    "xstate": "5.33.2"
   },
   "devDependencies": {
     "@jest/globals": "^30.5.1",
